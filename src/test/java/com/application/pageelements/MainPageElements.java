@@ -42,9 +42,6 @@ public class MainPageElements extends WebCommons{
 		return By.xpath("//a[text()='"+username+"']");
 	}
 	
-	@FindBy(xpath = "//label[contains(text(),'Your name:')]")
-	public WebElement yourNameLabel2;
-	
 	public WebElement userLink(String username) {
 		return driver.findElement(By.xpath("//a[text()='"+username+"']"));
 	}
